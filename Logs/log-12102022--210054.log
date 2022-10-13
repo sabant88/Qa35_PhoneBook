@@ -1,0 +1,153 @@
+21:00:59 INFO  manager.ApplicationManager - Chrome Driver was opened
+21:01:06 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+21:01:07 INFO  TestBase - Starts test with name : DeleteAllContactsSuccessClassWork
+21:01:07 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+21:01:10 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+21:01:10 INFO  manager.MyListener - List size is -->0
+21:01:10 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+21:01:10 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+21:01:10 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+21:01:10 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+21:01:11 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+21:01:11 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+21:01:11 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+21:01:11 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+21:01:11 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+21:01:12 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+21:01:12 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:12 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:12 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:12 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:13 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:13 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:13 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:13 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:13 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:13 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:13 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:13 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:13 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+21:01:13 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+21:01:14 INFO  manager.MyListener - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:14 INFO  manager.MyListener - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:14 INFO  manager.MyListener - List size is -->1
+21:01:14 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:14 INFO  manager.MyListener - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:14 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[.='Remove']
+21:01:14 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[.='Remove']
+21:01:15 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: .contact-page_message__2qafk h1
+21:01:16 INFO  manager.MyListener - After Find Element By -->By.cssSelector: .contact-page_message__2qafk h1
+21:01:16 INFO  TestBase - Starts test with name : DeleteAllContactsSuccessHomeWork
+21:01:16 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+21:01:16 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+21:01:16 INFO  manager.MyListener - List size is -->1
+21:01:16 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+21:01:16 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+21:01:16 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:16 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:16 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:16 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:17 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:17 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:17 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:17 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:17 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:17 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:17 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:17 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:18 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+21:01:18 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+21:01:18 INFO  manager.MyListener - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+21:01:18 INFO  manager.MyListener - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+21:01:18 INFO  manager.MyListener - List size is -->1
+21:01:18 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:18 INFO  manager.MyListener - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:18 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[.='Remove']
+21:01:18 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[.='Remove']
+21:01:19 INFO  manager.MyListener - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+21:01:22 INFO  manager.MyListener - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+21:01:22 INFO  manager.MyListener - List size is -->0
+21:01:22 INFO  manager.MyListener - Before Find Element By -->By.xpath: //h1[contains(.,'No Contacts here!')]
+21:01:22 INFO  manager.MyListener - After Find Element By -->By.xpath: //h1[contains(.,'No Contacts here!')]
+21:01:22 INFO  manager.MyListener - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:25 INFO  manager.MyListener - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:25 INFO  manager.MyListener - List size is -->0
+21:01:25 INFO  TestBase - Starts test with name : DeleteOneContactSuccessClassWork
+21:01:25 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+21:01:25 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+21:01:25 INFO  manager.MyListener - List size is -->1
+21:01:25 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+21:01:25 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+21:01:25 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:26 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:26 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:26 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:26 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:26 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:26 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:26 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:26 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:26 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:27 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:27 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:27 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+21:01:27 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+21:01:27 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:27 INFO  manager.MyListener - After Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:27 INFO  manager.MyListener - List size is -->1
+21:01:27 INFO  manager.MyListener - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:27 INFO  manager.MyListener - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:27 INFO  manager.MyListener - List size is -->1
+21:01:27 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:27 INFO  manager.MyListener - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:27 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[.='Remove']
+21:01:27 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[.='Remove']
+21:01:29 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:32 INFO  manager.MyListener - After Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:32 INFO  manager.MyListener - List size is -->0
+21:01:32 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:35 INFO  manager.MyListener - After Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:35 INFO  manager.MyListener - List size is -->0
+21:01:35 INFO  manager.MyListener - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:38 INFO  manager.MyListener - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:38 INFO  manager.MyListener - List size is -->0
+21:01:38 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:41 INFO  manager.MyListener - After Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:01:41 INFO  manager.MyListener - List size is -->0
+21:01:41 INFO  TestBase - Starts test with name : DeleteOneContactSuccessHomeWork
+21:01:41 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+21:01:41 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+21:01:41 INFO  manager.MyListener - List size is -->1
+21:01:41 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+21:01:41 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+21:01:41 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:41 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+21:01:41 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:41 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+21:01:41 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:41 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+21:01:42 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:42 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+21:01:42 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:42 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+21:01:42 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:42 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+21:01:42 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+21:01:42 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+21:01:42 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='CONTACTS']
+21:01:42 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='CONTACTS']
+21:01:42 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM h3
+21:01:46 INFO  manager.MyListener - We have a 'problem'
+21:01:46 INFO  manager.MyListener - The name of error method  findElement
+21:01:46 INFO  manager.MyListener - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".contact-item_card__2SOIM h3"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [528544fb2af657d79b3164ec46f3cde4, findElement {using=css selector, value=.contact-item_card__2SOIM h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52070/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 528544fb2af657d79b3164ec46f3cde4
+21:01:46 INFO  manager.MyListener - *********************
+21:01:46 INFO  manager.MyListener - ChromeDriver: chrome on WINDOWS (528544fb2af657d79b3164ec46f3cde4)
+21:01:46 INFO  manager.MyListener - Screen with error is  1011 ****src/test/screenshots/screen1011.png

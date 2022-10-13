@@ -1,0 +1,19 @@
+18:54:48 INFO  manager.MyListener - Before Find Elements -->By.xpath: //button
+18:54:51 INFO  manager.MyListener - After Find Elements -->By.xpath: //button
+18:54:51 INFO  manager.MyListener - List size is -->0
+18:54:51 INFO  TestBase - test name ---> Login Success
+18:54:51 INFO  manager.MyListener - Before Find Element -->By.xpath: //a[@href='/login']
+18:54:51 INFO  manager.MyListener - After Find Element -->By.xpath: //a[@href='/login']
+18:54:51 INFO  manager.MyListener - Before Find Element -->By.xpath: //input[@placeholder='Email']
+18:54:51 INFO  manager.MyListener - After Find Element -->By.xpath: //input[@placeholder='Email']
+18:54:52 INFO  manager.MyListener - Before Find Element -->By.xpath: //input[@placeholder='Password']
+18:54:52 INFO  manager.MyListener - After Find Element -->By.xpath: //input[@placeholder='Password']
+18:54:52 INFO  TestBase - user with email--> noa@gmail.com and password --> Nnoa12345$
+18:54:52 INFO  manager.MyListener - Before Find Element -->By.xpath: //button[normalize-space()='Login']
+18:54:52 INFO  manager.MyListener - After Find Element -->By.xpath: //button[normalize-space()='Login']
+18:54:52 INFO  manager.MyListener - Before Find Elements -->By.xpath: //button
+18:54:53 INFO  manager.MyListener - After Find Elements -->By.xpath: //button
+18:54:53 INFO  manager.MyListener - List size is -->1
+18:54:53 INFO  TestBase - Assert passed
+18:54:53 INFO  manager.MyListener - Before Find Element -->By.xpath: //a[.='HOME']
+18:54:53 INFO  manager.MyListener - After Find Element -->By.xpath: //a[.='HOME']

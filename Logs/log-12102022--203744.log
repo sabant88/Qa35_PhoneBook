@@ -1,0 +1,68 @@
+20:37:53 INFO  manager.ApplicationManager - Chrome Driver was opened
+20:38:01 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+20:38:02 INFO  TestBase - Starts test with name : DeleteAllContactsSuccessClassWork
+20:38:02 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+20:38:06 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+20:38:06 INFO  manager.MyListener - List size is -->0
+20:38:06 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+20:38:06 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+20:38:06 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+20:38:06 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+20:38:06 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+20:38:06 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+20:38:07 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+20:38:07 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+20:38:07 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+20:38:08 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+20:38:08 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+20:38:08 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+20:38:08 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+20:38:09 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+20:38:09 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+20:38:09 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+20:38:09 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+20:38:09 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+20:38:09 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+20:38:09 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+20:38:09 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+20:38:09 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+20:38:10 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+20:38:10 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+20:38:10 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+20:38:11 INFO  manager.MyListener - After Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+20:38:11 INFO  manager.MyListener - List size is -->1
+20:38:11 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+20:38:11 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+20:38:11 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+20:38:11 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+20:38:11 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+20:38:11 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+20:38:11 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+20:38:11 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+20:38:11 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+20:38:11 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+20:38:11 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+20:38:12 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+20:38:12 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+20:38:12 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+20:38:12 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+20:38:12 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+20:38:12 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+20:38:12 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+20:38:12 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+20:38:12 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+20:38:12 INFO  manager.MyListener - We have a 'problem'
+20:38:12 INFO  manager.MyListener - The name of error method  sendKeys
+20:38:12 INFO  manager.MyListener - Describe of error org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f905904ec5b388b0b7b5b20f988a5381, sendKeysToElement {id=1c2082f6-d17f-4c53-9144-430b62049f78, value=[Ljava.lang.CharSequence;@37a0ec3c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50947/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f905904ec5b388b0b7b5b20f988a5381)] -> css selector: input[placeholder='Name']]
+Session ID: f905904ec5b388b0b7b5b20f988a5381
+20:38:12 INFO  manager.MyListener - *********************
+20:38:12 INFO  manager.MyListener - [[ChromeDriver: chrome on WINDOWS (f905904ec5b388b0b7b5b20f988a5381)] -> css selector: input[placeholder='Name']]
+20:38:12 INFO  manager.MyListener - Screen with error is  1673 ****src/test/screenshots/screen1673.png

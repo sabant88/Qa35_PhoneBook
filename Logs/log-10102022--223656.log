@@ -1,0 +1,25 @@
+22:37:04 INFO  manager.ApplicationManager - Chrome Driver was opened
+22:37:08 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+22:37:09 INFO  TestBase - Starts test with name : loginSuccess
+22:37:09 INFO  TestBase - starts test if authorizated user
+22:37:09 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+22:37:12 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+22:37:12 INFO  manager.MyListener - List size is -->0
+22:37:12 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login'
+22:37:12 INFO  manager.MyListener - We have a 'problem'
+22:37:12 INFO  manager.MyListener - The name of error method  findElement
+22:37:12 INFO  manager.MyListener - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[@href='/login' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@href='/login'' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05d2bedea8beb13af96e9e73c3168293, findElement {using=xpath, value=//a[@href='/login'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56519/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05d2bedea8beb13af96e9e73c3168293
+22:37:12 INFO  manager.MyListener - *********************
+22:37:12 INFO  manager.MyListener - ChromeDriver: chrome on WINDOWS (05d2bedea8beb13af96e9e73c3168293)
+22:37:12 INFO  manager.MyListener - Screen with error is  1434 ****src/test/screenshots/screen1434.png
+22:37:13 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+22:37:13 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']

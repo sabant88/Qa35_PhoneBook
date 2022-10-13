@@ -1,0 +1,65 @@
+21:33:03 INFO  manager.ApplicationManager - Chrome Driver was opened
+21:33:06 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+21:33:07 INFO  TestBase - Starts test with name : DeleteOneContactSuccessClassWork
+21:33:07 INFO  manager.MyListener - Before Find Elements -->By.xpath: //button
+21:33:10 INFO  manager.MyListener - After Find Elements -->By.xpath: //button
+21:33:10 INFO  manager.MyListener - List size is -->0
+21:33:10 INFO  manager.MyListener - Before Find Element -->By.xpath: //a[@href='/login']
+21:33:10 INFO  manager.MyListener - After Find Element -->By.xpath: //a[@href='/login']
+21:33:10 INFO  manager.MyListener - Before Find Element -->By.xpath: //input[contains(@placeholder,'Email')]
+21:33:10 INFO  manager.MyListener - After Find Element -->By.xpath: //input[contains(@placeholder,'Email')]
+21:33:10 INFO  manager.MyListener - Before Find Element -->By.xpath: //input[@placeholder='Password']
+21:33:10 INFO  manager.MyListener - After Find Element -->By.xpath: //input[@placeholder='Password']
+21:33:11 INFO  manager.MyListener - Before Find Element -->By.xpath: //button[normalize-space()='Login']
+21:33:11 INFO  manager.MyListener - After Find Element -->By.xpath: //button[normalize-space()='Login']
+21:33:11 INFO  manager.MyListener - Before Find Element -->By.xpath: //a[.='ADD']
+21:33:12 INFO  manager.MyListener - After Find Element -->By.xpath: //a[.='ADD']
+21:33:12 INFO  manager.MyListener - Before Find Element -->By.cssSelector: input[placeholder='Name']
+21:33:12 INFO  manager.MyListener - After Find Element -->By.cssSelector: input[placeholder='Name']
+21:33:12 INFO  manager.MyListener - Before Find Element -->By.cssSelector: input[placeholder='Last Name']
+21:33:12 INFO  manager.MyListener - After Find Element -->By.cssSelector: input[placeholder='Last Name']
+21:33:12 INFO  manager.MyListener - Before Find Element -->By.cssSelector: input[placeholder='email']
+21:33:13 INFO  manager.MyListener - After Find Element -->By.cssSelector: input[placeholder='email']
+21:33:13 INFO  manager.MyListener - Before Find Element -->By.cssSelector: input[placeholder='Phone']
+21:33:13 INFO  manager.MyListener - After Find Element -->By.cssSelector: input[placeholder='Phone']
+21:33:13 INFO  manager.MyListener - Before Find Element -->By.cssSelector: input[placeholder='Address']
+21:33:13 INFO  manager.MyListener - After Find Element -->By.cssSelector: input[placeholder='Address']
+21:33:13 INFO  manager.MyListener - Before Find Element -->By.cssSelector: input[placeholder='description']
+21:33:13 INFO  manager.MyListener - After Find Element -->By.cssSelector: input[placeholder='description']
+21:33:13 INFO  manager.MyListener - Before Find Element -->By.xpath: //b
+21:33:13 INFO  manager.MyListener - After Find Element -->By.xpath: //b
+21:33:14 INFO  manager.MyListener - Before Find Elements -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:33:14 INFO  manager.MyListener - After Find Elements -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:33:14 INFO  manager.MyListener - List size is -->1
+21:33:14 INFO  manager.MyListener - Before Find Elements -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:14 INFO  manager.MyListener - After Find Elements -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:14 INFO  manager.MyListener - List size is -->5
+21:33:14 INFO  manager.MyListener - Before Find Element -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:14 INFO  manager.MyListener - After Find Element -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:14 INFO  manager.MyListener - Before Find Element -->By.xpath: //button[.='Remove']
+21:33:14 INFO  manager.MyListener - After Find Element -->By.xpath: //button[.='Remove']
+21:33:14 INFO  manager.MyListener - Before Find Elements -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:33:14 INFO  manager.MyListener - After Find Elements -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:33:14 INFO  manager.MyListener - List size is -->1
+21:33:14 INFO  manager.MyListener - Before Find Elements -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:33:14 INFO  manager.MyListener - After Find Elements -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+21:33:14 INFO  manager.MyListener - List size is -->1
+21:33:14 INFO  manager.MyListener - Before Find Elements -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:14 INFO  manager.MyListener - After Find Elements -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:14 INFO  manager.MyListener - List size is -->5
+21:33:14 INFO  manager.MyListener - Before Find Element -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:15 INFO  manager.MyListener - After Find Element -->By.cssSelector: .contact-item_card__2SOIM h3
+21:33:15 INFO  manager.MyListener - Before Find Element -->By.xpath: //button[.='Remove']
+21:33:18 INFO  manager.MyListener - The name of error method findElement
+21:33:18 INFO  manager.MyListener - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Remove']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e02323c0ffa605a4ae51160cdb7efb7b, findElement {using=xpath, value=//button[.='Remove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56272/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e02323c0ffa605a4ae51160cdb7efb7b
+21:33:18 INFO  manager.MyListener - ==========================================
+21:33:18 INFO  manager.MyListener - ChromeDriver: chrome on WINDOWS (e02323c0ffa605a4ae51160cdb7efb7b)
+21:33:18 INFO  manager.MyListener - screenshot with error is 1221src/test/screenShots1221.png

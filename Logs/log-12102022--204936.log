@@ -1,0 +1,50 @@
+20:49:44 INFO  manager.ApplicationManager - Chrome Driver was opened
+20:49:48 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+20:49:49 INFO  TestBase - Starts test with name : DeleteAllContactsSuccessClassWork
+20:49:49 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+20:49:52 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+20:49:52 INFO  manager.MyListener - List size is -->0
+20:49:52 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+20:49:52 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+20:49:52 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+20:49:52 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+20:49:53 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+20:49:53 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+20:49:53 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+20:49:53 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+20:49:53 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='ADD']
+20:49:54 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='ADD']
+20:49:54 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+20:49:54 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Name']
+20:49:54 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Last Name']
+20:49:54 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Last Name']
+20:49:55 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='email']
+20:49:55 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='email']
+20:49:55 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Phone']
+20:49:55 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Phone']
+20:49:55 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Address']
+20:49:55 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='Address']
+20:49:55 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='description']
+20:49:55 INFO  manager.MyListener - After Find Element By -->By.cssSelector: input[placeholder='description']
+20:49:55 INFO  manager.MyListener - Before Find Element By -->By.xpath: //b
+20:49:55 INFO  manager.MyListener - After Find Element By -->By.xpath: //b
+20:49:56 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+20:49:56 INFO  manager.MyListener - After Find Elements By -->By.xpath: //div[@class='contact-page_leftdiv__yhyke']
+20:49:56 INFO  manager.MyListener - List size is -->1
+20:49:56 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='CONTACTS']
+20:49:56 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='CONTACTS']
+20:49:56 INFO  manager.MyListener - Before Find Element By -->By.cssSelector: input[placeholder='Name']
+20:49:59 INFO  manager.MyListener - We have a 'problem'
+20:49:59 INFO  manager.MyListener - The name of error method  findElement
+20:49:59 INFO  manager.MyListener - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder='Name']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f17816d6b35ec83744240b37ce59c25, findElement {using=css selector, value=input[placeholder='Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51760/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f17816d6b35ec83744240b37ce59c25
+20:49:59 INFO  manager.MyListener - *********************
+20:49:59 INFO  manager.MyListener - ChromeDriver: chrome on WINDOWS (9f17816d6b35ec83744240b37ce59c25)
+20:49:59 INFO  manager.MyListener - Screen with error is  1251 ****src/test/screenshots/screen1251.png

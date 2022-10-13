@@ -1,0 +1,3 @@
+01:21:51 INFO  TestBase - test name ---> Login Success
+01:21:52 INFO  TestBase - user with email--> noa@gmail.com and password --> Nnoa12345$
+01:21:53 INFO  TestBase - Assert passed

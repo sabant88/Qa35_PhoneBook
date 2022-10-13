@@ -1,0 +1,6 @@
+14130 [Test worker] INFO  TestBase - test starts with name ---> Login Success
+14872 [Test worker] INFO  TestBase - user with email--> noa@gmail.com and password --> Nnoa12345$
+15821 [Test worker] INFO  TestBase - Assert passed
+01:15:19 INFO  TestBase - test name ---> Login Success
+01:15:20 INFO  TestBase - user with email--> noa@gmail.com and password --> Nnoa12345$
+01:15:21 INFO  TestBase - Assert passed
