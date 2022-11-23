@@ -1,0 +1,69 @@
+16:44:09 INFO  manager.ApplicationManager - Chrome Driver was opened
+16:44:14 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+16:44:16 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:44:16 INFO  TestBase - starts test if authorizated user
+16:44:16 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:44:19 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:44:19 INFO  manager.MyListener - List size is -->0
+16:44:19 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:44:19 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:44:19 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:44:19 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:44:20 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:44:21 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:44:21 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:44:22 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:44:22 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:44:22 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:44:25 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:44:25 INFO  manager.MyListener - List size is -->0
+16:44:25 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:44:25 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']
+16:44:28 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:44:28 INFO  TestBase - starts test if authorizated user
+16:44:28 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:44:31 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:44:31 INFO  manager.MyListener - List size is -->0
+16:44:31 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:44:31 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:44:31 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:44:32 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:44:35 INFO  manager.MyListener - We have a 'problem'
+16:44:35 INFO  manager.MyListener - The name of error method  findElement
+16:44:35 INFO  manager.MyListener - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Email']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26406e2ba0a65ddeedea3120f972fc9d, findElement {using=xpath, value=//input[@placeholder='Email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57689/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26406e2ba0a65ddeedea3120f972fc9d
+16:44:35 INFO  manager.MyListener - *********************
+16:44:35 INFO  manager.MyListener - ChromeDriver: chrome on WINDOWS (26406e2ba0a65ddeedea3120f972fc9d)
+16:44:35 INFO  manager.MyListener - Screen with error is  1846 ****src/test/screenshots/screen1846.png
+16:44:37 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:44:37 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']
+16:44:39 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:44:39 INFO  TestBase - starts test if authorizated user
+16:44:39 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:44:39 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:44:39 INFO  manager.MyListener - List size is -->1
+16:44:39 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button
+16:44:40 INFO  manager.MyListener - After Find Element By -->By.xpath: //button
+16:44:40 INFO  TestBase - test was needed in logout status
+16:44:40 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:44:40 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:44:40 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:44:40 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:44:40 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:44:41 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:44:41 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:44:41 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:44:41 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:44:41 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:44:42 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:44:42 INFO  manager.MyListener - List size is -->1
+16:44:42 INFO  TestBase - Assert passed 'is logged'
+16:44:42 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:44:42 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']

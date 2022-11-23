@@ -1,0 +1,33 @@
+22:22:54 INFO  manager.ApplicationManager - Chrome Driver was opened
+22:22:58 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+22:22:59 INFO  TestBase - Starts test with name : loginNegativeWrongEmailFormat
+22:22:59 INFO  TestBase - starts test if authorizated user
+22:22:59 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+22:23:02 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+22:23:02 INFO  manager.MyListener - List size is -->0
+22:23:02 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+22:23:02 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+22:23:02 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+22:23:03 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+22:23:03 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+22:23:03 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+22:23:03 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+22:23:03 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+22:23:04 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+22:23:07 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+22:23:07 INFO  manager.MyListener - List size is -->0
+22:23:07 INFO  manager.MyListener - We have a 'problem'
+22:23:07 INFO  manager.MyListener - The name of error method  alert
+22:23:07 INFO  manager.MyListener - Describe of error org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-J613HCK', ip: '192.168.1.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bdb947ba2c23d43907027f88981b6bd, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\saban\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54323/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bdb947ba2c23d43907027f88981b6bd
+22:23:07 INFO  manager.MyListener - *********************
+22:23:07 INFO  manager.MyListener - org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@47f04e4d
+22:23:07 INFO  manager.MyListener - Screen with error is  1717 ****src/test/screenshots/screen1717.png
+22:23:07 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+22:23:07 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']

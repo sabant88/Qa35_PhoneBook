@@ -1,3 +1,4 @@
+import manager.DataProviderContact;
 import models.Contact;
 import models.User;
 import org.openqa.selenium.By;
@@ -11,6 +12,24 @@ public class AddNewContactTests extends TestBase {
     public void preCond() {
         if (!app.getHelperUser().isLogged())
             app.getHelperUser().login(new User().setEmail("toldo@mail.uz").setPassword("Ttoldo1$"));
+    }
+
+    @Test(dataProvider = "dataContact",dataProviderClass = DataProviderContact.class)
+    public void AddNewContactSuccessAllFieldsDataProvider(Contact contact) {
+
+        logger.info("test statrs with data --->" + contact.toString());
+
+        app.getHelperContact().openAddContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().saveButton();
+
+        Assert.assertTrue(app.getHelperUser().isContactPresent(By.xpath("//div[@class='contact-item_card__2SOIM'][1]")));
+        Assert.assertTrue(app.getHelperUser().isContactPresent(By.xpath("//a[.='CONTACTS']")));
+
+        Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
+
+
     }
 
     @Test(invocationCount = 5)

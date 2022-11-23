@@ -1,0 +1,114 @@
+16:17:35 INFO  manager.ApplicationManager - Chrome Driver was opened
+16:17:38 INFO  manager.ApplicationManager - Current URL --> https://contacts-app.tobbymarshall815.vercel.app/home
+16:17:39 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:17:39 INFO  TestBase - starts test if authorizated user
+16:17:39 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:42 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:42 INFO  manager.MyListener - List size is -->0
+16:17:42 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:17:42 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:17:42 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:17:42 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:17:42 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:17:43 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:43 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:43 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:43 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:43 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:44 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:44 INFO  manager.MyListener - List size is -->1
+16:17:44 INFO  TestBase - Assert passed 'is logged'
+16:17:44 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:17:44 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']
+16:17:46 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:17:46 INFO  TestBase - starts test if authorizated user
+16:17:46 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:46 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:46 INFO  manager.MyListener - List size is -->1
+16:17:46 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button
+16:17:46 INFO  manager.MyListener - After Find Element By -->By.xpath: //button
+16:17:47 INFO  TestBase - test was needed in logout status
+16:17:47 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:17:47 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:17:47 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:17:47 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:17:47 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:17:47 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:47 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:47 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:47 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:47 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:48 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:48 INFO  manager.MyListener - List size is -->1
+16:17:48 INFO  TestBase - Assert passed 'is logged'
+16:17:48 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:17:48 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']
+16:17:50 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:17:50 INFO  TestBase - starts test if authorizated user
+16:17:50 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:50 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:50 INFO  manager.MyListener - List size is -->1
+16:17:50 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button
+16:17:50 INFO  manager.MyListener - After Find Element By -->By.xpath: //button
+16:17:50 INFO  TestBase - test was needed in logout status
+16:17:50 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:17:50 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:17:50 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:17:50 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:17:50 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:17:50 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:51 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:51 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:51 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:51 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:51 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:51 INFO  manager.MyListener - List size is -->1
+16:17:51 INFO  TestBase - Assert passed 'is logged'
+16:17:51 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:17:51 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']
+16:17:53 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:17:53 INFO  TestBase - starts test if authorizated user
+16:17:53 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:53 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:53 INFO  manager.MyListener - List size is -->1
+16:17:53 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button
+16:17:53 INFO  manager.MyListener - After Find Element By -->By.xpath: //button
+16:17:53 INFO  TestBase - test was needed in logout status
+16:17:53 INFO  TestBase - User login with data: email noa@gmail.com and password: Nnoa12345$
+16:17:53 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:17:53 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:17:54 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+16:17:54 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+16:17:54 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:54 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:54 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:54 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:54 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:55 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:55 INFO  manager.MyListener - List size is -->1
+16:17:55 INFO  TestBase - Assert passed 'is logged'
+16:17:55 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:17:55 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']
+16:17:57 INFO  TestBase - Starts test with name : loginSuccessDataProvider
+16:17:57 INFO  TestBase - starts test if authorizated user
+16:17:57 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:57 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:57 INFO  manager.MyListener - List size is -->1
+16:17:57 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button
+16:17:57 INFO  manager.MyListener - After Find Element By -->By.xpath: //button
+16:17:57 INFO  TestBase - test was needed in logout status
+16:17:57 INFO  TestBase - User login with data: email toldo@mail.uz and password: Ttoldo1$
+16:17:57 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[@href='/login']
+16:17:57 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[@href='/login']
+16:17:57 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+16:17:57 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[contains(@placeholder,'Email')]
+16:17:58 INFO  manager.MyListener - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:58 INFO  manager.MyListener - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:17:58 INFO  manager.MyListener - Before Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:58 INFO  manager.MyListener - After Find Element By -->By.xpath: //button[normalize-space()='Login']
+16:17:58 INFO  manager.MyListener - Before Find Elements By -->By.xpath: //button
+16:17:58 INFO  manager.MyListener - After Find Elements By -->By.xpath: //button
+16:17:58 INFO  manager.MyListener - List size is -->1
+16:17:58 INFO  TestBase - Assert passed 'is logged'
+16:17:58 INFO  manager.MyListener - Before Find Element By -->By.xpath: //a[.='HOME']
+16:17:58 INFO  manager.MyListener - After Find Element By -->By.xpath: //a[.='HOME']

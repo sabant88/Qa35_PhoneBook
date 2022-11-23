@@ -1,3 +1,5 @@
+import lombok.Data;
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -76,24 +78,32 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test(dataProvider = "dataLogin")
-    public void loginSuccessDataProvider() {
+    @Test(dataProvider = "dataLogin", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessDataProvider(String email, String password) {
+        logger.info("User login with data: email " + email + " and password: " + password);
 
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(email,password);
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Assert passed 'is logged'");
 
-        User user = new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$");
+    }
+
+    @Test(dataProvider = "dataModel", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessDataProviderModel(User user) {
+
+        logger.info("User login with data: email " + user.toString());
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
+
         Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Assert passed 'is logged'");
 
     }
 
-    @DataProvider
-    public Iterator<Object[]> dataLogin(){
 
-        List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"noa@gmail.com", "Nnoa12345$"});
-        return list.iterator();
-    }
+
 }
